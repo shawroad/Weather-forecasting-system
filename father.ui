@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>865</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>861</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="gridLayout"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>865</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>切换查询方式</string>
+    </property>
+    <addaction name="searchWeather"/>
+    <addaction name="WorldWeather"/>
+    <addaction name="sanWeather"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>空气质量查询</string>
+    </property>
+    <addaction name="kongqisort"/>
+    <addaction name="kongqibiaozhun"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="searchWeather">
+   <property name="text">
+    <string>天气预报查询</string>
+   </property>
+   <property name="toolTip">
+    <string>天气预报查询</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="WorldWeather">
+   <property name="text">
+    <string>全国气温查询</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="sanWeather">
+   <property name="text">
+    <string>查询三天天气</string>
+   </property>
+   <property name="toolTip">
+    <string>查询三天天气</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+  </action>
+  <action name="kongqisort">
+   <property name="text">
+    <string>空气质量排名</string>
+   </property>
+   <property name="toolTip">
+    <string>空气质量排名</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="kongqibiaozhun">
+   <property name="text">
+    <string>空气质量标准</string>
+   </property>
+   <property name="toolTip">
+    <string>空气质量标准</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

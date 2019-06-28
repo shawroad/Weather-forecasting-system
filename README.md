@@ -3,3 +3,5 @@
 
 执行python total_show.py 将会出现以下界面供选择：
 ![image](https://github.com/shawroad/Weather-forecasting-system/blob/master/images/total.png)
+接着就可以进行两种查询：
+i[image](https://github.com/shawroad/Weather-forecasting-system/blob/master/images/online.png)
